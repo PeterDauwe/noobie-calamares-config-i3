@@ -1,0 +1,21 @@
+- name: "Bobo's Choise"
+  description: "Software chosen by ArcoLinux Bobo"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - discord
+    - firefox
+    - flameshot
+    - meld
+    - scrot
+    - simplescreenrecorder
+    - sublime-text-dev
+    - hugo
+    - zathura
+    - zathura-pdf-poppler
+    - zathura-cb
+    - zathura-djvu
+    - alacritty
+    - vifm
