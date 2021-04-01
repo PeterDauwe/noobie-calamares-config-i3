@@ -38,6 +38,7 @@ Presentation
     }
 
     Slide {
+
         anchors.fill: parent
         anchors.verticalCenterOffset: 0
         
@@ -57,7 +58,8 @@ Presentation
             anchors.horizontalCenterOffset: 0
             font.pixelSize: parent.width *.016
             color: 'white'
-            text: qsTr("<b>Welcome to ArcoBobo-i3, an arch-based rolling distribution "+
+            text: qsTr("<b>Welcome to ArcoBobo-i3<br/" +
+		"This is a arch-based rolling distribution <br/"+
                 "based on a ArcoLinux-i3 but with a different look.<br/><br/>"+
                 "Whilst the OS is being installed on your computer,...take a little break.<br/>")
             wrapMode: Text.WordWrap
@@ -67,6 +69,7 @@ Presentation
     }
 
     Slide {
+
         anchors.fill: parent
         anchors.verticalCenterOffset: 0
 
@@ -86,7 +89,8 @@ Presentation
             anchors.horizontalCenterOffset: 0
             font.pixelSize: parent.width *.016
             color: 'white'
-            text: qsTr("<b>ArcoBobo-i3 is a Arch Linux Distribution with a tilling window manager! ")
+            text: qsTr("<b>ArcoBobo-i3 is a Arch Linux Distribution<br/"+
+		" with a tilling window manager! ")
             wrapMode: Text.WordWrap
             width: parent.width / 1.4
             horizontalAlignment: Text.AlignHCenter
@@ -113,9 +117,8 @@ Presentation
             anchors.horizontalCenterOffset: 0
             font.pixelSize: parent.width *.016
             color: 'white'
-            text: qsTr("<b>This distribution installs many programs by default<br/>"+
-            			"Many more are made available through the Calamares installer.<br/>"+
-                		"Additionally, you can use yay and pacman to install from the repos.")
+            text: qsTr("<b>This ArcoLinux Spinoff installs many programs by default<br/>"+
+               		"Additionally, you can use yay and pacman to install from the repos.")
             wrapMode: Text.WordWrap
             width: parent.width / 1.4
             horizontalAlignment: Text.AlignHCenter
@@ -123,6 +126,7 @@ Presentation
     }
 
     Slide {
+
         anchors.fill: parent
         anchors.verticalCenterOffset: 0
 
