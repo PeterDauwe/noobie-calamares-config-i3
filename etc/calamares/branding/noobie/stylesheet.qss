@@ -6,19 +6,34 @@ In principle, all parts can be styled through CSS.
 Missing parts should be filed as issues.
 
 The IDs are based on the object names in the C++ code.
+You can use the Debug Dialog to find out object names:
+  - Open the debug dialog
+  - Choose tab *Tools*
+  - Click *Widget Tree* button
+The list of object names is printed in the log.
 
 Documentation for styling Qt Widgets through a stylesheet
 can be found at
     https://doc.qt.io/qt-5/stylesheet-examples.html
+    https://doc.qt.io/qt-5/stylesheet-reference.html
 In Calamares, styling widget classes is supported (e.g.
-using `QComboBox` as a selector). You can also use specific
-object names (ids), which you can find through debugging tools.
+using `QComboBox` as a selector).
+
+This example stylesheet has all the actual styling commented out.
+The examples are not exhaustive.
+
+Use gammaray
 
 */
 
-/* Main application window. */
+
+/* ########## MAIN APPLICATION WINDOW ########## */
 
 #mainApp {
+}
+
+#mainText{
+	font : bold 16px;
 }
 
 #sidebarApp {
@@ -106,6 +121,7 @@ QScrollBar:vertical {
      width: 15px;
      margin: 22px 0 22px 0;
 }
+
 QScrollBar::handle:vertical {
      background: #5c2b6d;
      min-height: 20px;
