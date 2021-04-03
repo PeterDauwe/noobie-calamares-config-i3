@@ -79,7 +79,7 @@ Presentation
             anchors.horizontalCenterOffset: 0
             font.pixelSize: parent.width *.016
             color: 'white'
-            text: qsTr("<b>ArcoBobo - i 3 is a Arch Linux Distribution<br/"+
+            text: qsTr("<b>ArcoBobo - i 3 is an Arch Linux Distribution<br/"+
 		" with a tilling window manager! Info : hit F1")
             wrapMode: Text.WordWrap
             width: parent.width / 1.4
