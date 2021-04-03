@@ -11,11 +11,11 @@ navigation: widget
 
 strings:
     productName:         "@{NAME}"
-    shortProductName:    Noobie
+    shortProductName:    ArcoBobo
     version:             Rolling
     shortVersion:        Rolling
-    versionedName:       Noobie
-    shortVersionedName:  Noobie
+    versionedName:       ArcoBobo
+    shortVersionedName:  ArcoBobo
     bootloaderEntryName: Noobie
 images:
     productLogo:         "logo.png"

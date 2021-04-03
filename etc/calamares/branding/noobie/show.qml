@@ -47,10 +47,11 @@ Presentation
             anchors.horizontalCenterOffset: 0
             font.pixelSize: parent.width *.016
             color: 'white'
-            text: qsTr("<b>Welcome to ArcoBobo-i3<br/" +
+            text: qsTr("<b>Welcome to ArcoBobo - i 3<br/" +
 		"This is a arch-based rolling distribution <br/"+
-                "based on a ArcoLinux-i3 but with a different look.<br/><br/>"+
-                "Whilst the OS is being installed on your computer,...take a little break.<br/>")
+                "based on a ArcoLinux - i 3 but with a different look.<br/><br/>"+
+                "Whilst the OS is being installed on your computer...<br/>"+
+                "take a little break.<br/>")
             wrapMode: Text.WordWrap
             width: parent.width / 1.4
             horizontalAlignment: Text.AlignHCenter
@@ -78,8 +79,8 @@ Presentation
             anchors.horizontalCenterOffset: 0
             font.pixelSize: parent.width *.016
             color: 'white'
-            text: qsTr("<b>ArcoBobo-i3 is a Arch Linux Distribution<br/"+
-		" with a tilling window manager! ")
+            text: qsTr("<b>ArcoBobo - i 3 is a Arch Linux Distribution<br/"+
+		" with a tilling window manager! Info : hit F1")
             wrapMode: Text.WordWrap
             width: parent.width / 1.4
             horizontalAlignment: Text.AlignHCenter
@@ -106,7 +107,7 @@ Presentation
             anchors.horizontalCenterOffset: 0
             font.pixelSize: parent.width *.016
             color: 'white'
-            text: qsTr("<b>This ArcoLinux Spinoff installs many programs by default<br/>"+
+            text: qsTr("<b>This ArcoLinux Spinoff installs many programs by default.<br/>"+
                		"Additionally, you can use yay and pacman to install from the repos.")
             wrapMode: Text.WordWrap
             width: parent.width / 1.4
@@ -135,7 +136,7 @@ Presentation
             anchors.horizontalCenterOffset: 0
             font.pixelSize: parent.width *.016
             color: 'white'
-            text: qsTr("<b>ArcoBobo-i3<br/><br/><br/> Hope you have fun with this OS!")
+            text: qsTr("<b>ArcoBobo - i 3<br/><br/><br/> Hope you have fun with this OS!")
             wrapMode: Text.WordWrap
             width: parent.width / 1.4
             horizontalAlignment: Text.AlignHCenter
