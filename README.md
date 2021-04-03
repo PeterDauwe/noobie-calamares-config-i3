@@ -1,1 +1,1 @@
-# bobo-wallpapers
+** noobie-calamares-config-i3 **
